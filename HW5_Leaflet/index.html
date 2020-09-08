@@ -13,18 +13,18 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
 
-
 </head>
 <body>
 
-    <div id="Mapid"></div>
+    <div id="mapid"></div>
     
-    <Style>#Mapid{ width:900px;height: 500px;}
+    <Style>
+    #mapid{ width: 900px; height: 500px;}
     </Style>
 
 <script>
-    var map = L.map('Mapid').setView ([35.91,-79.05], 17);
-    L.tilelayer('https://{s}.tile.opentomap.org/{z}/{x}/{y}.png',{}).addTo(map)
+    var map = L.map('mapid').setView ([35.91, -79.05], 17);
+        L.tilelayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{}).addTo(map)
 </script>
 </body>
 </html>
