@@ -49,13 +49,13 @@
              .bindPopup("Davis Library")
              .openPopup(); 
 
-        L.geoJSON(uncwell).addTo(map) 
+        //L.geoJSON(uncwell).addTo(map) 
         var uncicon = L.icon({
             iconUrl: 'https://comp426.com/img/old-well-white.png',
             iconSize: [50,50],
-            popupAnchor: [0,0]
-        });
-        var customPopup = "UNC Well<br/><img src='https://admissions.unc.edu/files/2013/08/old-well-spring.jpg' width= '100px' />";    
+            popupAnchor: [0,0]});
+        var customPopup = "UNC Well<br/><img src ='https://admissions.unc.edu/files/2013/08/old-well-spring.jpg'width= '100px'/>"; 
+
         L.geoJSON(coker_arboretum).addTo(map)    
         L.geoJSON(Moorehead_Planetarium).addTo(map)
 
