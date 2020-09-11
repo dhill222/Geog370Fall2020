@@ -54,7 +54,7 @@
             iconUrl: 'https://comp426.com/img/old-well-white.png',
             iconSize: [50,50],
             popupAnchor: [0,0]});
-        var customPopup = "UNC Well<br/><img src ='https://admissions.unc.edu/files/2013/08/old-well-spring.jpg'width= '100px'/>"; 
+        var customPopup = "uncwell<br/><img src ='https://admissions.unc.edu/files/2013/08/old-well-spring.jpg'width= '100px'/>"; 
         L.geoJSON(uncwell, { // a
             pointToLayer: function (feature, latlng) { // b
             return L.marker(latlng, {icon: uncIcon});}}) // c
