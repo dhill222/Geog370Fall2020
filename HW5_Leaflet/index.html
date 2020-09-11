@@ -45,7 +45,9 @@
 
         L.marker([35.910981, -79.047915]).addTo(map)
              .bindPopup("Davis Library")
-             .openPopup();          
+             .openPopup(); 
+
+        L.geoJSON(uncwell).addTo(map)            
 
             </script>
 </body>
