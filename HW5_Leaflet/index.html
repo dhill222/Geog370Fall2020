@@ -17,6 +17,7 @@
    <script src = "./leaflet/data/old_well_4326.geojson"></script>
    <script src = "./leaflet/data/coker_arboretum.geojson"></script>
    <script src = "./leaflet/data/Moorehead_Planetarium.geojson"></script>
+   <script src = "./leaflet/data/Starbucks.geojson"></script>
 
 
 </head>
@@ -40,6 +41,7 @@
         L.marker([35.913160, -79.051016]).addTo(map)
              .bindPopup("Alumni Hall")
              .openPopup();
+             
 
         L.marker([35.9133394, -79.055592]).addTo(map)
              .bindPopup("Starbucks on Franklin")
@@ -48,6 +50,19 @@
         L.marker([35.910981, -79.047915]).addTo(map)
              .bindPopup("Davis Library")
              .openPopup(); 
+             
+        L.geoJSON(Starbucks).addTo(map)
+        var uncIcon = L.icon({
+            iconUrl: 'https://i.dlpng.com/static/png/6401023_preview.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]});
+
+        var customPopup = "Starbucks<br/>img src = 'https://lh4.googleusercontent.com/-9MbRlvcvpKs/V-_rs-LW6HI/AAAAAAAABew/h53A3845O2syw6xC60QWNUV4QQn7lnu1QCJkC/photo.jpg'width= '100px'/>";
+        l.geoJSON(Starbucks, {//a
+            pointToLayer:function (feature,latlng){ //b
+            return L.marker(latlng, {icon: uncIcon});}})//c
+            .bindPopup(customPopup) //d
+            addTo(map);
 
         L.geoJSON(uncwell).addTo(map) 
         var uncIcon = L.icon({
