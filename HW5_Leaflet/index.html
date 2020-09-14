@@ -30,13 +30,13 @@
 
     <script>
         var map = L.map('mapid').setView([35.91, -79.05], 17);
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
-        L.marker([35.911271, -79.049807]).addTo(map)
-             .bindPopup("Carolina Hall 322")
-             .openPopup();
-             var CarolinaHall = L.icon({ iconUrl: 'https://cdn3.iconfinder.com/data/icons/pretty-office-part-10-reflection-style/512/Globe.png', 
-             iconSize:[50,50], 
-             popupAnchor: [0,0]});
+        var esriTiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
+        // L.marker([35.911271, -79.049807]).addTo(map)
+        //      .bindPopup("Carolina Hall 322")
+        //      .openPopup();
+        //      var CarolinaHall = L.icon({ iconUrl: 'https://cdn3.iconfinder.com/data/icons/pretty-office-part-10-reflection-style/512/Globe.png', 
+        //      iconSize:[50,50], 
+        //      popupAnchor: [0,0]});
 
         L.marker([35.913160, -79.051016]).addTo(map)
              .bindPopup("Alumni Hall")
@@ -53,9 +53,10 @@
             popupAnchor: [0,0]});
 
         var customPopup = "Starbucks<br/><img src ='https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/09/17171833/untitled-3-768x483.jpg'width= '100px'/>";
-        L.geoJSON(Starbucks, {//a
-            pointToLayer:function (feature,latlng){ //b
-            return L.marker(latlng, {icon: uncIcon});}})//c
+        // L.geoJSON(Starbucks, {//a
+        //     pointToLayer:function (feature,latlng){ //b
+            // return 
+            L.marker([35.9133394, -79.055592], {icon: uncIcon})//c
             .bindPopup(customPopup) //d
             .addTo(map);
 
