@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pittsboro NC</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+   <!-- <script src = "./leaflet/data/old_well_4326.geojson"></script>
+   <script src = "./leaflet/data/coker_arboretum.geojson"></script>
+   <script src = "./leaflet/data/Moorehead_Planetarium.geojson"></script>
+   <script src = "./leaflet/data/Starbucks.geojson"></script> -->
+
+
+</head>
+<body>
+
+    <div id="mapid"></div>
+    <Style>
+         #mapid{ width: 900px; height: 500px;}
+    </Style>
+
+    <script>
+        var map = L.map('mapid').setView([35.720270, -79.177112], 16);
+        var esriTiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
+        // L.marker([35.911271, -79.049807]).addTo(map)
+        //      .bindPopup("Carolina Hall 322")
+        //      .openPopup();
+        //      var CarolinaHall = L.icon({ iconUrl: 'https://cdn3.iconfinder.com/data/icons/pretty-office-part-10-reflection-style/512/Globe.png', 
+        //      iconSize:[50,50], 
+        //      popupAnchor: [0,0]});
+
+         L.marker([35.720270, -79.177112]).addTo(map)
+              .bindPopup("Pittsboro Courthouse 1881")
+              .openPopup();
+                    
+         L.marker([35.718542, -79.177344]).addTo(map)
+              .bindPopup("New Chatham County Justice Center 2013")
+              .openPopup(); 
+
+         L.marker([35.720367, -79.175331]).addTo(map)
+              .bindPopup("Masonic Columbus Lodge No. 32  1838")
+              .openPopup(); 
+
+         L.marker([35.722325, -79.180877]).addTo(map)
+              .bindPopup("St. Bartholomew's Episcopal Church  1832")
+              .openPopup(); 
+
+        // L.geoJSON(Starbucks).addTo(map)
+        // var uncIcon = L.icon({
+        //     iconUrl: 'https://i.dlpng.com/static/png/6401023_preview.png',
+        //     iconSize: [50,50],
+        //     popupAnchor: [0,0]});
+
+        // var customPopup = "Starbucks<br/><img src ='https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/09/17171833/untitled-3-768x483.jpg'width= '100px'/>";
+        // L.geoJSON(Starbucks, {//a
+        //     pointToLayer:function (feature,latlng){ //b
+            // return 
+        //     L.marker([35.9133394, -79.055592], {icon: uncIcon})//c
+        //     .bindPopup(customPopup) //d
+        //     .addTo(map);
+
+        // L.geoJSON(uncwell).addTo(map) 
+        // var uncIcon = L.icon({
+        //     iconUrl: 'https://www.med.unc.edu/ome/studentaffairs/files/2018/11/Screen-Shot-2018-11-20-at-4.18.02-PM.png',
+        //     iconSize: [50,50],
+        //     popupAnchor: [0,0]});
+
+        // var customPopup = "UNC Well<br/><img src ='https://admissions.unc.edu/files/2013/08/old-well-spring.jpg'width= '100px'/>"; 
+        // L.geoJSON(uncwell, { // a
+        //     pointToLayer: function (feature, latlng) { // b
+        //     return L.marker(latlng, {icon: uncIcon});}}) // c
+        //     .bindPopup(customPopup) // d
+        //     .addTo(map); //
+
+        // L.geoJSON(coker_arboretum).addTo(map)
+        // var uncIcon = L.icon({
+        //     iconUrl: 'https://img.icons8.com/plasticine/2x/flower-doodle.png',
+        //     iconSize: [50,50],
+        //     popupAnchor: [0,0]});
+
+        // var customPopup = "Coker Arboretum<br/><img src ='https://live.staticflickr.com/3044/3171019643_1a22d7a1a8_b.jpg'width= '100px'/>"; 
+        // L.geoJSON(coker_arboretum, { // a
+        //     pointToLayer: function (feature, latlng) { // b
+        //     return L.marker(latlng, {icon: uncIcon});}}) // c
+        //     .bindPopup(customPopup) // d
+        //     .addTo(map); //
+
+
+
+        // L.geoJSON(Moorehead_Planetarium).addTo(map)
+        // var uncIcon = L.icon({
+        //     iconUrl: 'https://www.uokpl.rs/fpng/d/436-4365604_transparent-science-solar.png',
+        //     iconSize: [50,50],
+        //     popupAnchor: [0,0]});
+
+        // var customPopup = "Moorehead Planetarium<br/><img src ='https://assets.simpleviewinc.com/simpleview/image/upload/crm/chapelhill/Morehead-Planetarium-Sceince-Center-5ea50ca75056b3a_5ea50d90-5056-b3a8-496aef3392379209.jpg'width= '100px'/>"; 
+        // L.geoJSON(Moorehead_Planetarium, { // a
+        //     pointToLayer: function (feature, latlng) { // b
+        //     return L.marker(latlng, {icon: uncIcon});}}) // c
+        //     .bindPopup(customPopup) // d
+        //     .addTo(map); //
+
+            </script>
+</body>
+</html>
