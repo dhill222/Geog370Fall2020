@@ -21,7 +21,7 @@
 
 
 </head>
-<body>
+ <body>
 
     <div id="mapid"></div>
     <Style>
@@ -30,13 +30,13 @@
 
     <script>
         var map = L.map('mapid').setView([35.91, -79.05], 17);
-        var esriTiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
-        // L.marker([35.911271, -79.049807]).addTo(map)
-        //      .bindPopup("Carolina Hall 322")
-        //      .openPopup();
-        //      var CarolinaHall = L.icon({ iconUrl: 'https://cdn3.iconfinder.com/data/icons/pretty-office-part-10-reflection-style/512/Globe.png', 
-        //      iconSize:[50,50], 
-        //      popupAnchor: [0,0]});
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
+        L.marker([35.911271, -79.049807]).addTo(map)
+             .bindPopup("Carolina Hall 322")
+             .openPopup();
+             var CarolinaHall = L.icon({ iconUrl: 'https://cdn3.iconfinder.com/data/icons/pretty-office-part-10-reflection-style/512/Globe.png', 
+             iconSize:[50,50], 
+             popupAnchor: [0,0]});
 
         L.marker([35.913160, -79.051016]).addTo(map)
              .bindPopup("Alumni Hall")
@@ -101,6 +101,7 @@
             .bindPopup(customPopup) // d
             .addTo(map); //
 
-            </script>
-</body>
+    </script>
+ </body>
+
 </html>
