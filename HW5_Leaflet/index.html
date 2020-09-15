@@ -31,6 +31,7 @@
     <script>
         var map = L.map('mapid').setView([35.912045, -79.051238], 16);
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {}).addTo(map)
+
         L.marker([35.911271, -79.049807]).addTo(map)
              .bindPopup("Carolina Hall 322")
              .openPopup();
@@ -47,20 +48,20 @@
              .openPopup(); 
 
         L.geoJSON(Starbucks).addTo(map)
-        var uncIcon = L.icon({
+        var sbuxIcon = L.icon({
             iconUrl: 'https://i.dlpng.com/static/png/6401023_preview.png',
             iconSize: [50,50],
             popupAnchor: [0,0]});
 
         var customPopup = "Starbucks<br/><img src ='https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/09/17171833/untitled-3-768x483.jpg'width= '100px'/>";
         L.geoJSON(Starbucks, { //a
-            pointToLayer:function (feature,latlng) { //b
-             return L.marker([latlng], {icon: uncIcon});}})//c
+            pointToLayer:function (feature, latlng) { //b
+             return L.marker(latlng, {icon: uncIcon});}})//c
             .bindPopup(customPopup) //d
             .addTo(map);
 
         L.geoJSON(uncwell).addTo(map) 
-        var uncIcon = L.icon({
+        var wellIcon = L.icon({
             iconUrl: 'https://www.med.unc.edu/ome/studentaffairs/files/2018/11/Screen-Shot-2018-11-20-at-4.18.02-PM.png',
             iconSize: [50,50],
             popupAnchor: [0,0]});
