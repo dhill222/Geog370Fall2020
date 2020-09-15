@@ -53,10 +53,9 @@
             popupAnchor: [0,0]});
 
         var customPopup = "Starbucks<br/><img src ='https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/09/17171833/untitled-3-768x483.jpg'width= '100px'/>";
-        L.geoJSON(Starbucks, {//a
-            pointToLayer:function (feature,latlng){ //b
-             return 
-            L.marker([35.9133394, -79.055592], {icon: uncIcon});}})//c
+        L.geoJSON(Starbucks, { //a
+            pointToLayer:function (feature,latlng) { //b
+             return L.marker([latlng], {icon: uncIcon});}})//c
             .bindPopup(customPopup) //d
             .addTo(map);
 
