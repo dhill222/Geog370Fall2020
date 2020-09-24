@@ -1,0 +1,134 @@
+GEO_ID,NAME,Totl population of county,population in poverty,% pop in pov,under 18 below poverty,ratio of children in poverty to total population X:100,Ratio of children in poverty to total in poverty
+51001,"Accomack County, Virginia",32396,6438,19.9,2223,7,35
+51003,"Albemarle County, Virginia",98891,9675,9.8,2492,3,26
+51005,"Alleghany County, Virginia",14940,3023,20.2,870,6,29
+51007,"Amelia County, Virginia",12761,1707,13.4,570,4,33
+51009,"Amherst County, Virginia",31043,4330,13.9,1298,4,30
+51011,"Appomattox County, Virginia",15487,2096,13.5,673,4,32
+51013,"Arlington County, Virginia",228785,16360,7.2,3073,1,19
+51015,"Augusta County, Virginia",70880,6532,9.2,1694,2,26
+51017,"Bath County, Virginia",4304,486,11.3,61,1,13
+51019,"Bedford County, Virginia",77293,7046,9.1,1765,2,25
+51021,"Bland County, Virginia",5707,481,8.4,82,1,17
+51023,"Botetourt County, Virginia",32842,2629,8,696,2,26
+51025,"Brunswick County, Virginia",14390,3082,21.4,1097,8,36
+51027,"Buchanan County, Virginia",21182,5859,27.7,1580,7,27
+51029,"Buckingham County, Virginia",14839,2542,17.1,630,4,25
+51031,"Campbell County, Virginia",54494,6414,11.8,1612,3,25
+51033,"Caroline County, Virginia",27904,2307,8.3,665,2,29
+51035,"Carroll County, Virginia",29448,4429,15,919,3,21
+51036,"Charles City County, Virginia",6960,910,13.1,220,3,24
+51037,"Charlotte County, Virginia",11873,2859,24.1,950,8,33
+51041,"Chesterfield County, Virginia",335404,23815,7.1,7240,2,30
+51043,"Clarke County, Virginia",14134,1410,10,541,4,38
+51045,"Craig County, Virginia",5096,435,8.5,55,1,13
+51047,"Culpeper County, Virginia",48744,3986,8.2,1015,2,25
+51049,"Cumberland County, Virginia",9709,1880,19.4,670,7,36
+51051,"Dickenson County, Virginia",14477,3512,24.3,1009,7,29
+51053,"Dinwiddie County, Virginia",27677,3542,12.8,966,3,27
+51057,"Essex County, Virginia",10959,1500,13.7,406,4,27
+51059,"Fairfax County, Virginia",1133591,69895,6.2,20857,2,30
+51061,"Fauquier County, Virginia",68696,4177,6.1,1341,2,32
+51063,"Floyd County, Virginia",15570,1780,11.4,275,2,15
+51065,"Fluvanna County, Virginia",24992,1221,4.9,245,1,20
+51067,"Franklin County, Virginia",54475,8940,16.4,2835,5,32
+51069,"Frederick County, Virginia",83666,5225,6.2,1382,2,26
+51071,"Giles County, Virginia",16519,1872,11.3,480,3,26
+51073,"Gloucester County, Virginia",36884,3125,8.5,899,2,29
+51075,"Goochland County, Virginia",21302,1136,5.3,228,1,20
+51077,"Grayson County, Virginia",14965,3085,20.6,1054,7,34
+51079,"Greene County, Virginia",19289,1151,6,248,1,22
+51081,"Greensville County, Virginia",8444,1407,16.7,484,6,34
+51083,"Halifax County, Virginia",34049,5145,15.1,1389,4,27
+51085,"Hanover County, Virginia",102635,5725,5.6,1851,2,32
+51087,"Henrico County, Virginia",322653,32209,10,11692,4,36
+51089,"Henry County, Virginia",50886,10347,20.3,3309,7,32
+51091,"Highland County, Virginia",2184,268,12.3,37,2,14
+51093,"Isle of Wight County, Virginia",36014,3604,10,1181,3,33
+51095,"James City County, Virginia",73195,5695,7.8,1664,2,29
+51097,"King and Queen County, Virginia",7042,1165,16.5,458,7,39
+51099,"King George County, Virginia",25647,1452,5.7,586,2,40
+51101,"King William County, Virginia",16421,1655,10.1,836,5,51
+51103,"Lancaster County, Virginia",10713,983,9.2,171,2,17
+51105,"Lee County, Virginia",22591,5414,24,1315,6,24
+51107,"Loudoun County, Virginia",383171,14223,3.7,4149,1,29
+51109,"Louisa County, Virginia",35085,4325,12.3,1044,3,24
+51111,"Lunenburg County, Virginia",11309,2022,17.9,636,6,31
+51113,"Madison County, Virginia",12940,1070,8.3,163,1,15
+51115,"Mathews County, Virginia",8713,942,10.8,236,3,25
+51117,"Mecklenburg County, Virginia",29797,5633,18.9,1602,5,28
+51119,"Middlesex County, Virginia",10353,874,8.4,125,1,14
+51121,"Montgomery County, Virginia",88706,21533,24.3,2194,2,10
+51125,"Nelson County, Virginia",14670,1812,12.4,489,3,27
+51127,"New Kent County, Virginia",20482,992,4.8,330,2,33
+51131,"Northampton County, Virginia",11631,2216,19.1,781,7,35
+51133,"Northumberland County, Virginia",12210,1700,13.9,469,4,28
+51135,"Nottoway County, Virginia",13938,2814,20.2,563,4,20
+51137,"Orange County, Virginia",34749,2984,8.6,1160,3,39
+51139,"Page County, Virginia",23506,4303,18.3,1339,6,31
+51141,"Patrick County, Virginia",17491,3264,18.7,1139,7,35
+51143,"Pittsylvania County, Virginia",60558,9457,15.6,2960,5,31
+51145,"Powhatan County, Virginia",25870,1383,5.3,259,1,19
+51147,"Prince Edward County, Virginia",18017,3577,19.9,712,4,20
+51149,"Prince George County, Virginia",33926,3142,9.3,1216,4,39
+51153,"Prince William County, Virginia",451060,30520,6.8,11792,3,39
+51155,"Pulaski County, Virginia",33081,4446,13.4,1268,4,29
+51157,"Rappahannock County, Virginia",7285,650,8.9,134,2,21
+51159,"Richmond County, Virginia",7195,1023,14.2,344,5,34
+51161,"Roanoke County, Virginia",91235,6754,7.4,1774,2,26
+51163,"Rockbridge County, Virginia",22276,3075,13.8,777,3,25
+51165,"Rockingham County, Virginia",77499,7401,9.5,1901,2,26
+51167,"Russell County, Virginia",27078,5276,19.5,1150,4,22
+51169,"Scott County, Virginia",21138,3923,18.6,853,4,22
+51171,"Shenandoah County, Virginia",42606,4620,10.8,1244,3,27
+51173,"Smyth County, Virginia",30324,5818,19.2,1526,5,26
+51175,"Southampton County, Virginia",16326,1665,10.2,524,3,31
+51177,"Spotsylvania County, Virginia",130463,10447,8,3552,3,34
+51179,"Stafford County, Virginia",139983,6306,4.5,2086,1,33
+51181,"Surry County, Virginia",6600,839,12.7,232,4,28
+51183,"Sussex County, Virginia",7890,1382,17.5,441,6,32
+51185,"Tazewell County, Virginia",40559,6550,16.1,1957,5,30
+51187,"Warren County, Virginia",38516,4004,10.4,1252,3,31
+51191,"Washington County, Virginia",52505,7862,15,2178,4,28
+51193,"Westmoreland County, Virginia",17570,2117,12,393,2,19
+51195,"Wise County, Virginia",35898,7890,22,2179,6,28
+51197,"Wythe County, Virginia",28600,4468,15.6,1288,5,29
+51199,"York County, Virginia",66052,3101,4.7,932,1,30
+51510,"Alexandria city, Virginia",155124,16432,10.6,5263,3,32
+51520,"Bristol city, Virginia",16498,3740,22.7,1324,8,35
+51530,"Buena Vista city, Virginia",5890,1182,20.1,224,4,19
+51540,"Charlottesville city, Virginia",44319,10915,24.6,1582,4,14
+51550,"Chesapeake city, Virginia",231227,20768,9,8828,4,43
+51570,"Colonial Heights city, Virginia",17373,2341,13.5,785,5,34
+51580,"Covington city, Virginia",5468,831,15.2,246,4,30
+51590,"Danville city, Virginia",39729,8717,21.9,2867,7,33
+51595,"Emporia city, Virginia",5164,1499,29,654,13,44
+51600,"Fairfax city, Virginia",23118,2018,8.7,312,1,15
+51610,"Falls Church city, Virginia",14033,377,2.7,69,0,18
+51620,"Franklin city, Virginia",8095,1315,16.2,391,5,30
+51630,"Fredericksburg city, Virginia",25975,3672,14.1,1003,4,27
+51640,"Galax city, Virginia",6379,1625,25.5,528,8,32
+51650,"Hampton city, Virginia",130712,20609,15.8,6939,5,34
+51660,"Harrisonburg city, Virginia",46011,12953,28.2,1420,3,11
+51670,"Hopewell city, Virginia",22107,4639,21,1765,8,38
+51678,"Lexington city, Virginia",3820,826,21.6,102,3,12
+51680,"Lynchburg city, Virginia",69582,15182,21.8,4072,6,27
+51683,"Manassas city, Virginia",41296,3551,8.6,1317,3,37
+51685,"Manassas Park city, Virginia",16321,1583,9.7,598,4,38
+51690,"Martinsville city, Virginia",12576,3201,25.5,1157,9,36
+51700,"Newport News city, Virginia",170842,26457,15.5,9152,5,35
+51710,"Norfolk city, Virginia",220136,43383,19.7,14035,6,32
+51720,"Norton city, Virginia",3935,1155,29.4,383,10,33
+51730,"Petersburg city, Virginia",31197,8037,25.8,2529,8,31
+51735,"Poquoson city, Virginia",11983,536,4.5,125,1,23
+51740,"Portsmouth city, Virginia",91565,15707,17.2,6277,7,40
+51750,"Radford city, Virginia",14558,5230,35.9,331,2,6
+51760,"Richmond city, Virginia",213147,52298,24.5,15613,7,30
+51770,"Roanoke city, Virginia",97694,20046,20.5,6756,7,34
+51775,"Salem city, Virginia",23010,2095,9.1,576,3,27
+51790,"Staunton city, Virginia",23139,3165,13.7,863,4,27
+51800,"Suffolk city, Virginia",88293,9520,10.8,3546,4,37
+51810,"Virginia Beach city, Virginia",438973,33485,7.6,10576,2,32
+51820,"Waynesboro city, Virginia",21633,3766,17.4,1337,6,36
+51830,"Williamsburg city, Virginia",10537,2356,22.4,253,2,11
+51840,"Winchester city, Virginia",26745,4004,15,1457,5,36
